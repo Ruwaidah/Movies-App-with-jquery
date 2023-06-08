@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="movie-form">
+      <label for="title"
+        >Title:
+        <input
+          type="text"
+          id="title"
+          placeholder="enter movie name"
+          name="title"
+      /></label>
+
+      <label for="rate"
+        >Rate:<input id="rate" name="rate" type="number" max="10" />
+      </label>
+      <input type="submit" />
+    </form>
+    <ul id="movies-list"></ul>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
