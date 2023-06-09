@@ -2,12 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
     <title>Document</title>
   </head>
   <body>
+    <h1>My Movies</h1>
     <form id="movie-form">
       <label for="title"
         >Title:
@@ -21,8 +28,13 @@
       <label for="rate"
         >Rate:<input id="rate" name="rate" type="number" max="10" />
       </label>
-      <input type="submit" />
+      <input type="submit" value="Add" />
     </form>
+    <div class="list-h">
+      <h3>Movie</h3>
+      <h3>Rate</h3>
+      <h3>Delete</h3>
+    </div>
     <ul id="movies-list"></ul>
     <script
       src="https://code.jquery.com/jquery-3.7.0.min.js"
